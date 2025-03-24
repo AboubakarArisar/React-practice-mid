@@ -1,4 +1,7 @@
 import Button from "./Button";
+
+import Signup from "./Login";
+import { Login as Signin, Logout } from "./Login";
 function App() {
   const user = {
     name: "Ataberk",
@@ -19,9 +22,12 @@ function App() {
       ) : (
         <>
           <h1>Unauthorized</h1>
-       
         </>
       )}
+
+      <Signup />
+      <Signin />
+      <Logout />
     </>
   );
 }
