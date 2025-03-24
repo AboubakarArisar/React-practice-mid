@@ -3,6 +3,7 @@ import Button from "./Button";
 import Signup from "./Login";
 import { Login as Signin, Logout } from "./Login";
 import { User } from "./User";
+import { Products } from "./Products";
 function App() {
   const user = {
     name: "Ataberk",
@@ -30,7 +31,8 @@ function App() {
       <Signin />
       <Logout /> */}
 
-      <User />
+      {/* <User /> */}
+      <Products />
     </>
   );
 }
