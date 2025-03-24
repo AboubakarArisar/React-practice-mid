@@ -5,6 +5,7 @@ import { Login as Signin, Logout } from "./Login";
 import { User } from "./User";
 import { Products } from "./Products";
 import { UsersFiltering } from "./UsersFiltering";
+import TypingSpeedChecker from "./TypingSpeed";
 function App() {
   const user = {
     name: "Ataberk",
@@ -34,7 +35,8 @@ function App() {
 
       {/* <User /> */}
       {/* <Products /> */}
-      <UsersFiltering />
+      {/* <UsersFiltering /> */}
+      <TypingSpeedChecker />
     </>
   );
 }
