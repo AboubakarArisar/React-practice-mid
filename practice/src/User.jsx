@@ -1,8 +1,15 @@
 import Button from "./Button";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 export function User() {
   const [name, setName] = useState("");
   const [displayName, setDisplayName] = useState("");
+  useEffect(() => {
+    console.log("hello");
+    return () => {
+      console.log("Component Will Unmount (Cleanup)");
+    };
+  }, [displayName]);
+  //dependcy array is empty it will work only when component is mounted, if it has any state in it it will work when componetDidMount happens or that particualar state gets changed it will render again
   return (
     <>
       <div className='w-full h-screen text-black flex justify-center items-center gap-2 flex-col'>
