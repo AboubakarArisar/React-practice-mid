@@ -2,6 +2,7 @@ import Button from "./Button";
 
 import Signup from "./Login";
 import { Login as Signin, Logout } from "./Login";
+import { User } from "./User";
 function App() {
   const user = {
     name: "Ataberk",
@@ -10,7 +11,7 @@ function App() {
   };
   return (
     <>
-      {/* //conditional rendering // true && reneder // ternary ? true : false */}
+      {/* //conditional rendering // true && reneder // ternary ? true : false
       {user.isAdmin && <h1>You are a admin</h1>}
 
       {user.isAdmin ? (
@@ -27,7 +28,9 @@ function App() {
 
       <Signup />
       <Signin />
-      <Logout />
+      <Logout /> */}
+
+      <User />
     </>
   );
 }
