@@ -8,6 +8,7 @@ import { UsersFiltering } from "./UsersFiltering";
 import TypingSpeedChecker from "./TypingSpeed";
 import Stopwatch from "./Stopwatch";
 import FormHandling from "./FormHandling";
+import ThemeSwitcher from "./ThemeSwitcher";
 function App() {
   const user = {
     name: "Ataberk",
@@ -40,7 +41,8 @@ function App() {
       {/* <UsersFiltering /> */}
       {/* <TypingSpeedChecker /> */}
       {/* <Stopwatch /> */}
-      <FormHandling />
+      {/* <FormHandling /> */}
+      <ThemeSwitcher />
     </>
   );
 }
