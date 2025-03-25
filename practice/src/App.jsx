@@ -7,6 +7,7 @@ import { Products } from "./Products";
 import { UsersFiltering } from "./UsersFiltering";
 import TypingSpeedChecker from "./TypingSpeed";
 import Stopwatch from "./Stopwatch";
+import FormHandling from "./FormHandling";
 function App() {
   const user = {
     name: "Ataberk",
@@ -38,7 +39,8 @@ function App() {
       {/* <Products /> */}
       {/* <UsersFiltering /> */}
       {/* <TypingSpeedChecker /> */}
-      <Stopwatch />
+      {/* <Stopwatch /> */}
+      <FormHandling />
     </>
   );
 }
