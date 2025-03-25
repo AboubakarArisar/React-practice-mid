@@ -36,9 +36,9 @@ function App() {
 
       {/* <User /> */}
       {/* <Products /> */}
-      <UsersFiltering />
+      {/* <UsersFiltering /> */}
       {/* <TypingSpeedChecker /> */}
-      {/* <Stopwatch /> */}
+      <Stopwatch />
     </>
   );
 }
